@@ -1,0 +1,12 @@
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\bin\Debug\net6.0\Booking.Repository.deps.json
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\bin\Debug\net6.0\Booking.Repository.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\bin\Debug\net6.0\Booking.Repository.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\refint\Booking.Repository.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\Booking.Repository.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Repository\obj\Debug\net6.0\ref\Booking.Repository.dll
