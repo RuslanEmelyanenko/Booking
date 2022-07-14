@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Lsj0MEpInK8sJccs0DBH3ubWQRJIXdv7BM9cYPODkoZqn+dyXoBskEZ82yM7Rmopty8vNQ6eBtTB2YND8c06iw==",
+  "dgSpecHash": "XysYYBLzDtWdlrzZ2JDMN44l2ymIXqHvr/jPzMG/pRowsS7otaMWbkaQcCfaZSsjZixXMDRLpJD7hjDAXGaAow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\Booking.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.5\\microsoft.entityframeworkcore.6.0.5.nupkg.sha512",

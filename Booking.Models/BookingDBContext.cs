@@ -13,14 +13,14 @@ namespace Booking.Models
         {
         }
 
-        public virtual DbSet<Appartment> Appartments { get; set; } = null!;
-        public virtual DbSet<BookingConfirmation> BookingConfirmations { get; set; } = null!;
-        public virtual DbSet<Country> Countries { get; set; } = null!;
-        public virtual DbSet<Customer> Customers { get; set; } = null!;
-        public virtual DbSet<District> Districts { get; set; } = null!;
-        public virtual DbSet<Location> Locations { get; set; } = null!;
-        public virtual DbSet<Region> Regions { get; set; } = null!;
-        public virtual DbSet<UserInfo> UserInfos { get; set; } = null!;
+        public virtual DbSet<Apartment> Apartments { get; set; }
+        public virtual DbSet<BookingConfirmation> BookingConfirmations { get; set; }
+        public virtual DbSet<Country> Countries { get; set; }
+        public virtual DbSet<Customer> Customers { get; set; }
+        public virtual DbSet<District> Districts { get; set; }
+        public virtual DbSet<Location> Locations { get; set; }
+        public virtual DbSet<Region> Regions { get; set; }
+        public virtual DbSet<UserInfo> UserInfos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -32,16 +32,18 @@ namespace Booking.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Appartment>(entity =>
+            modelBuilder.Entity<Apartment>(entity =>
             {
                 entity.Property(e => e.Id).HasColumnName("ID");
+
+                entity.Property(e => e.ApartmentName).HasColumnName("AppartmentName");
 
                 entity.Property(e => e.Gpa).HasColumnName("GPA");
 
                 entity.Property(e => e.LocationId).HasColumnName("LocationID");
 
                 entity.HasOne(d => d.Location)
-                    .WithMany(p => p.Appartments)
+                    .WithMany(p => p.Apartments)
                     .HasForeignKey(d => d.LocationId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Appartments_Locations");
@@ -53,7 +55,7 @@ namespace Booking.Models
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 
-                entity.Property(e => e.AppartmentId).HasColumnName("AppartmentID");
+                entity.Property(e => e.ApartmentId).HasColumnName("AppartmentID");
 
                 entity.Property(e => e.BookingDate).HasColumnType("date");
 
@@ -65,9 +67,9 @@ namespace Booking.Models
                     .HasColumnName("isApproved")
                     .IsFixedLength();
 
-                entity.HasOne(d => d.Appartment)
+                entity.HasOne(d => d.Apartment)
                     .WithMany(p => p.BookingConfirmations)
-                    .HasForeignKey(d => d.AppartmentId)
+                    .HasForeignKey(d => d.ApartmentId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_BookingConfirmation_Appartments");
 

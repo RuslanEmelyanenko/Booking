@@ -10,3 +10,10 @@ C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\obj\Debug\net6.0\Bo
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\obj\Debug\net6.0\refint\Booking.Services.dll
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\obj\Debug\net6.0\Booking.Services.pdb
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\obj\Debug\net6.0\ref\Booking.Services.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Dtos.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Models.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Repository.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Dtos.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Repository.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\bin\Debug\net6.0\Booking.Models.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.Services\obj\Debug\net6.0\Booking.Services.csproj.CopyComplete

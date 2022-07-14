@@ -7,7 +7,7 @@
             Regions = new HashSet<Region>();
         }
 
-        public string CountryName { get; set; } = null!;
+        public string CountryName { get; set; } = string.Empty;
 
         public virtual ICollection<Region> Regions { get; set; }
     }

@@ -7,6 +7,7 @@
             BookingConfirmations = new HashSet<BookingConfirmation>();
         }
 
+        public string AppartmentName { get; set; } = string.Empty;
         public int LocationId { get; set; }
         public string? PhotoAppartment { get; set; }
         public string? Reviews { get; set; }

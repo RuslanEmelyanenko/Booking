@@ -4,13 +4,13 @@
     {
         public Location()
         {
-            Appartments = new HashSet<Appartment>();
+            Apartments = new HashSet<Apartment>();
         }
 
-        public string Pleace { get; set; } = null!;
+        public string Pleace { get; set; } = string.Empty;
         public int DistrictId { get; set; }
 
-        public virtual District District { get; set; } = null!;
-        public virtual ICollection<Appartment> Appartments { get; set; }
+        public virtual District District { get; set; }
+        public virtual ICollection<Apartment> Apartments { get; set; }
     }
 }
