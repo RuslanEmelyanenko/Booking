@@ -26,5 +26,10 @@ namespace Booking.Repository.Implementations
 
             return bookingConfirmations;
         }
+
+        public Task GetAsync(string entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

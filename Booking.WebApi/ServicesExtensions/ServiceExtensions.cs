@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Booking.WebApi.MappingProfiles;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Booking.WebApi.ServicesExtensions
 {
