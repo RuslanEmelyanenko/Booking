@@ -27,9 +27,11 @@ namespace Booking.Repository.Implementations
             return bookingConfirmations;
         }
 
-        public Task GetAsync(string entity)
+        public async Task<BookingConfirmation> GetAsync(string customerName)
         {
-            throw new NotImplementedException();
+            var bookingConfirmation = await _dbContext.BookingConfirmations.FirstOrDefaultAsync(b => b.Customer.Name == customerName);
+
+            return bookingConfirmation;
         }
     }
 }
