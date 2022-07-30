@@ -19,21 +19,7 @@ namespace Booking.Services.Implementation
         public async Task<IList<ApartmentDto>> GatAllAsync()
         {
             var apartments = await _unitOfWork.ApartmentRepository.GetAllAsync();
-            var apartmentsDto = new List<ApartmentDto>();
-
-            foreach (var apartment in apartments)
-            {
-                var apartmentItem = new ApartmentDto
-                {
-                    ApartmentName = apartment.ApartmentName,
-                    PhotoAppartment = apartment.PhotoAppartment,
-                    Reviews = apartment.Reviews,
-                    GPA = apartment.Gpa, 
-                };
-
-                apartmentsDto.Add(apartmentItem);
-            }
-                                                                                          
+            var apartmentsDto = _mapper.Map<List<ApartmentDto>>(apartments);
 
             return apartmentsDto;
         }
@@ -41,10 +27,9 @@ namespace Booking.Services.Implementation
         public async Task<ApartmentDto> GetAsync(string apartmentName)
         {
             var apartment = await _unitOfWork.ApartmentRepository.GetAsync(apartmentName);
-
             var apartmentDto = _mapper.Map<ApartmentDto>(apartment);
 
             return apartmentDto;
         }
-    }
+    }                                                                                        
 }
