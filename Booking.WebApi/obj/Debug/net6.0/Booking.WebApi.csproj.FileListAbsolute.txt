@@ -64,3 +64,7 @@ C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Book
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Models.dll
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Dtos.pdb
 C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Models.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Repository.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Repository.pdb
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Services.dll
+C:\Users\Acer\Desktop\Tascks\Booking.WebApi\Booking.WebApi\bin\Debug\net6.0\Booking.Services.pdb

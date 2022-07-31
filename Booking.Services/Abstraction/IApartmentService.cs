@@ -1,6 +1,9 @@
-﻿namespace Booking.Services.Abstraction
+﻿using Booking.Dtos.BaseDTOs;
+
+namespace Booking.Services.Abstraction
 {
     public interface IApartmentService
     {
+        Task<IList<ApartmentDto>> GatAllAsync();
     }
 }

@@ -1,8 +1,9 @@
 ﻿using Booking.Models;
+using Booking.Repository.Abstractions;
 
 namespace Booking.Repository.Implementations
 {
-    public class UnitOfWork : IDisposable
+    public class UnitOfWork : IDisposable, IUnitOfWork
     {
         private BookingDBContext dbContext = new BookingDBContext();
         private ApartmentRepository _apartmentRepository;
