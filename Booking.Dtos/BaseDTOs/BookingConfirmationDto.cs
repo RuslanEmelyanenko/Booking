@@ -1,4 +1,6 @@
-﻿namespace Booking.Dtos.BaseDTOs
+﻿using System;
+
+namespace Booking.Dtos.BaseDTOs
 {
     public class BookingConfirmationDto
     {

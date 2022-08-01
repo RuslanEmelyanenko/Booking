@@ -1,16 +1,18 @@
-﻿using AutoMapper;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using AutoMapper;
 using Booking.Dtos.BaseDTOs;
-using Booking.Repository.Implementations;
+using Booking.Repository.Abstractions;
 using Booking.Services.Abstraction;
 
 namespace Booking.Services.Implementation
 {
     public class ApartmentService : IBaseService<ApartmentDto>, IApartmentService
     {
-        private readonly UnitOfWork _unitOfWork;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public ApartmentService(UnitOfWork unitOfWork, IMapper mapper)
+        public ApartmentService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -31,5 +33,5 @@ namespace Booking.Services.Implementation
 
             return apartmentDto;
         }
-    }                                                                                        
+    }
 }

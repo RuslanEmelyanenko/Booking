@@ -1,4 +1,6 @@
-﻿namespace Booking.Models
+﻿using System.Collections.Generic;
+
+namespace Booking.Models
 {
     public partial class Customer : Entity
     {

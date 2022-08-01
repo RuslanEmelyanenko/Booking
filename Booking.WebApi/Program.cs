@@ -1,4 +1,7 @@
 using Booking.WebApi.ServicesExtensions;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,9 +11,11 @@ builder.Services.AddControllers();
 
 builder.Services.ConfigureMapper();
 
+builder.Services.ConfigureDbContext(builder.Configuration);
+
 builder.Services.ConfigureServices();
 
-builder.Services.ConfigureRepositorices();
+builder.Services.ConfigureRepositories();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

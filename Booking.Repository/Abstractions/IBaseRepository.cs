@@ -1,4 +1,7 @@
-﻿namespace Booking.Repository.Abstractions
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Booking.Repository.Abstractions
 {
     internal interface IBaseRepository<T>
         where T : class

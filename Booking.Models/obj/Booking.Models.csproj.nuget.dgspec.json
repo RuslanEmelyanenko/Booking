@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj": {}
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj": {
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj",
         "projectName": "Booking.Models",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\obj\\",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

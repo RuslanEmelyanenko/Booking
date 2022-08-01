@@ -1,4 +1,6 @@
-﻿using Booking.Dtos.BaseDTOs;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Booking.Dtos.BaseDTOs;
 using Booking.Services.Abstraction;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +19,7 @@ namespace Booking.WebApi.Controllers
 
         // Get: Apartment
         [HttpGet]
-        public async Task< ActionResult<IList<ApartmentDto>>> GatAllAsync()
+        public async Task<ActionResult<IList<ApartmentDto>>> GatAllAsync()
         {
             var apartments = await _apartmentService.GatAllAsync();
             return Ok(apartments);
