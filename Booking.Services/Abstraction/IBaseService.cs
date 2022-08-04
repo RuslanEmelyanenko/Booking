@@ -1,4 +1,7 @@
-﻿namespace Booking.Services.Abstraction
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+
+namespace Booking.Services.Abstraction
 {
     public interface IBaseService<T> 
         where T : class 

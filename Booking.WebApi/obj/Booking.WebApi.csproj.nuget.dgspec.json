@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\Booking.WebApi.csproj": {}
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.WebApi\\Booking.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj": {
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj",
         "projectName": "Booking.Dtos",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\obj\\",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,21 +58,17 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj": {
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj",
         "projectName": "Booking.Models",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\obj\\",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,21 +128,17 @@
         }
       }
     },
-    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\Booking.WebApi.csproj": {
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\Booking.WebApi.csproj",
-        "projectName": "Booking.WebApi",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\Booking.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.WebApi\\obj\\",
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj",
+        "projectName": "Booking.Repository",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -164,11 +152,75 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj"
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\Booking.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\Booking.Services.csproj",
+        "projectName": "Booking.Services",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\Booking.Services.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj"
               },
-              "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj": {
-                "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Models\\Booking.Models.csproj"
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj"
               }
             }
           }
@@ -186,6 +238,83 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.WebApi\\Booking.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.WebApi\\Booking.WebApi.csproj",
+        "projectName": "Booking.WebApi",
+        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.WebApi\\Booking.WebApi.csproj",
+        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj"
+              },
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Models\\Booking.Models.csproj"
+              },
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Repository\\Booking.Repository.csproj"
+              },
+              "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\Booking.Services.csproj": {
+                "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Services\\Booking.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

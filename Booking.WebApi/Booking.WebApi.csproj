@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -24,6 +25,8 @@
   <ItemGroup>
     <ProjectReference Include="..\Booking.Dtos\Booking.Dtos.csproj" />
     <ProjectReference Include="..\Booking.Models\Booking.Models.csproj" />
+    <ProjectReference Include="..\Booking.Repository\Booking.Repository.csproj" />
+    <ProjectReference Include="..\Booking.Services\Booking.Services.csproj" />
   </ItemGroup>
 
 </Project>

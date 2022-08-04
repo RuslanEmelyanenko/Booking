@@ -1,9 +1,12 @@
-﻿using Booking.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Booking.Models;
+using Booking.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Booking.Repository.Implementations
 {
-    public class ApartmentRepository : BaseRepository<Apartment>
+    public class ApartmentRepository : BaseRepository<Apartment>, IApartmentRepository
     {
         private readonly BookingDBContext _dbContext;
 

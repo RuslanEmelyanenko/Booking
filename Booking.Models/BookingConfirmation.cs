@@ -1,4 +1,6 @@
-﻿namespace Booking.Models
+﻿using System;
+
+namespace Booking.Models
 {
     public partial class BookingConfirmation : Entity
     {

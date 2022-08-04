@@ -1,4 +1,6 @@
-﻿using Booking.Models;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Booking.Models;
 using Booking.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
