@@ -1,23 +1,20 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace Booking.Repository.Abstractions
+﻿namespace Booking.Repository.Abstractions
 {
     internal interface IBaseRepository<T>
         where T : class
     {
-        Task<IList<T>> GetAllAsync();
+        Task<IReadOnlyCollection<T>> GetAllAsync();
 
         Task  GetAsync(T entity);
 
-        void Create(T entity);
+        Task CreateAsync(T entity);
 
-        void CreateList(IList <T> entities);
+        void CreateList(IReadOnlyCollection<T> entities);
 
-        void Update(T entity);
+        Task UpdateAsync(T entity);
 
-        void Delete(T entity);
+        Task DeleteAsync(T entity);
 
-        void Complete();
+        Task CompleteAsync();
     }
 }

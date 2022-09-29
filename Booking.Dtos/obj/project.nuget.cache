@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8dDlnBHjuuXleT2EjhrmlNMZj5viXUjJ45s7nqD2wfL4Zld/fdelcgM0cXkCBA+Iw24qCeiTJ5eWgqabsupz6A==",
+  "dgSpecHash": "ws1K5LTsJr7PgEG/keJNOJOCAZmtJr9P86xfNt9LFMZ+7yHRqJ956SoeM39mQL0bnUKWv7SObs85RE7XhaMMNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

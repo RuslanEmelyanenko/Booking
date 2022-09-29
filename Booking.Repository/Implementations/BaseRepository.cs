@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Booking.Models;
+﻿using Booking.Models;
 using Booking.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,23 +16,23 @@ namespace Booking.Repository.Implementations
             Entities = dbContext.Set<T>();
         }
 
-        public void Complete()
+        public async Task CompleteAsync()
         {
-            DbContext.SaveChanges();
+            await DbContext.SaveChangesAsync();
         }
 
-        public void Create(T entity)
+        public async Task CreateAsync(T entity)
         {
-            Entities.Add(entity);
+            await Entities.AddAsync(entity);
         }
 
-        public void CreateList(IList<T> entities)
+        public void CreateList(IReadOnlyCollection<T> entities)
         {
             Entities.AddRange(entities);
         }
 
-        public void Delete(T entity)
-        {
+        public async Task DeleteAsync(T entity)
+        {         
             Entities.Remove(entity);
         }
 
@@ -43,12 +41,12 @@ namespace Booking.Repository.Implementations
             await Entities.FirstOrDefaultAsync();
         }
 
-        public async Task<IList<T>> GetAllAsync()
+        public async Task<IReadOnlyCollection<T>> GetAllAsync()
         {
             return await Entities.ToListAsync();
         }
 
-        public void Update(T entity)
+        public async Task UpdateAsync(T entity)
         {
             DbContext.Update(entity);
         }

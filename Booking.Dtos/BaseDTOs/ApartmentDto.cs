@@ -6,5 +6,7 @@
         public string? PhotoAppartment { get; set; } = string.Empty;
         public string? Reviews { get; set; } = string.Empty;
         public double? GPA { get; set; }
+        public string LocationPleace { get; set; }
+        public string DistrictName { get; set; }
     }
 }
