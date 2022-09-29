@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj": {}
+    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj": {
+    "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj",
         "projectName": "Booking.Dtos",
-        "projectPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\Booking.Dtos.csproj",
-        "packagesPath": "C:\\Users\\hanna.khalikava\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hanna.khalikava\\Downloads\\.NET EDU\\BookingApi\\Booking.Dtos\\obj\\",
+        "projectPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\Booking.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer\\Desktop\\Tascks\\Booking.WebApi\\Booking.Dtos\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hanna.khalikava\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

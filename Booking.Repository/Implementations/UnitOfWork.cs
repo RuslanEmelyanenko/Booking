@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using Booking.Models;
+﻿using Booking.Models;
 using Booking.Repository.Abstractions;
 
 namespace Booking.Repository.Implementations
@@ -14,11 +12,19 @@ namespace Booking.Repository.Implementations
         private CustomerRepository _customerRepository;
         private DistrictRepository _districtRepository;
         private LocationRepository _locationRepository;
+
         private RegionRepository _regionRepository;
 
         public ApartmentRepository ApartmentRepository
         {
-            get { return _apartmentRepository ??= new ApartmentRepository(dbContext); }
+            get
+            {
+                if (_apartmentRepository == null)
+                {
+                    _apartmentRepository = new ApartmentRepository(dbContext);
+                }
+                return _apartmentRepository;
+            }
         }
 
         public BookingConfirmationsRepository BookingConfirmationsRepository
@@ -92,6 +98,8 @@ namespace Booking.Repository.Implementations
                 return _regionRepository;
             }
         }
+
+        public BookingConfirmationsRepository BookingConfirmatiosnRepository => throw new NotImplementedException();
 
         private bool _disposed = false;
 

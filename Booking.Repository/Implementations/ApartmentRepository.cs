@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Booking.Models;
+﻿using Booking.Models;
 using Booking.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,16 +16,50 @@ namespace Booking.Repository.Implementations
 
         public async Task<Apartment> GetAsync(string apartmentName)
         {
-            var apartment = await _dbContext.Apartments.FirstOrDefaultAsync(a => a.ApartmentName == apartmentName);
+            var apartment = await _dbContext.Apartments.FindAsync(apartmentName);
+
+            return apartment; 
+        }
+
+        public async Task<IReadOnlyCollection<Apartment>> GetAllAsync() 
+        {
+            var apartments = await _dbContext.Apartments
+                .Include(a => a.Location)
+                .ToListAsync();
+
+            return apartments;
+        }
+
+        public async Task<Apartment> GetAsync(int id)
+        {
+            var apartment = await _dbContext.Apartments.FirstOrDefaultAsync(b => b.Id == id);
 
             return apartment;
         }
 
-        public async Task<List<Apartment>> GetAllAsync()
+        public async Task Delete(string apartmentName)
         {
-            var apartments = await _dbContext.Apartments.ToListAsync();
+            var apartment = await _dbContext.Apartments.FindAsync(apartmentName);
 
-            return apartments;
+            if (apartment != null)
+            {
+                _dbContext.Remove(apartment);
+            }
+        }
+
+        public async Task CompleteAsync()
+        {
+            await _dbContext.SaveChangesAsync();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+        }
+
+        public async Task CreateAsync(Apartment apartment)
+        {
+            await _dbContext.Apartments.AddAsync(apartment);
+        }
+
+        public async Task UpdateAsync(Apartment apartment)
+        {
+            _dbContext.Apartments.Update(apartment);
         }
     }
 }

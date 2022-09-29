@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Booking.Models
+﻿namespace Booking.Models
 {
     public partial class Country : Entity
     {

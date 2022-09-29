@@ -1,12 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-
-namespace Booking.Services.Abstraction
+﻿namespace Booking.Services.Abstraction
 {
     public interface IBaseService<T> 
         where T : class 
     {
         Task<T> GetAsync(string entity);
-        Task<IList<T>> GatAllAsync();
+        Task<IReadOnlyCollection<T>> GatAllAsync();
+        Task<T> GetAsync(int id);
+        Task DeleteItemAsync(int id);
+        Task CreateItemAsync(T entity);
     }
 }

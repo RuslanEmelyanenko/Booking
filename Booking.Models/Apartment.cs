@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Booking.Models
+﻿namespace Booking.Models
 {
     public partial class Apartment : Entity
     {
@@ -11,7 +9,7 @@ namespace Booking.Models
 
         public string ApartmentName { get; set; } = string.Empty;
         public int LocationId { get; set; }
-        public string? PhotoAppartment { get; set; }
+        public string? PhotoApartment { get; set; }
         public string? Reviews { get; set; }
         public double? Gpa { get; set; }
 

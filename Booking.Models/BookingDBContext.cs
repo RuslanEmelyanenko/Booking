@@ -36,7 +36,7 @@ namespace Booking.Models
             {
                 entity.Property(e => e.Id).HasColumnName("ID");
 
-                entity.Property(e => e.ApartmentName).HasColumnName("AppartmentName");
+                entity.Property(e => e.ApartmentName).HasColumnName("ApartmentName");
 
                 entity.Property(e => e.Gpa).HasColumnName("GPA");
 
@@ -46,7 +46,7 @@ namespace Booking.Models
                     .WithMany(p => p.Apartments)
                     .HasForeignKey(d => d.LocationId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Appartments_Locations");
+                    .HasConstraintName("FK_Apartments_Locations");
             });
 
             modelBuilder.Entity<BookingConfirmation>(entity =>
@@ -55,7 +55,7 @@ namespace Booking.Models
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 
-                entity.Property(e => e.ApartmentId).HasColumnName("AppartmentID");
+                entity.Property(e => e.ApartmentId).HasColumnName("ApartmentID");
 
                 entity.Property(e => e.BookingDate).HasColumnType("date");
 
@@ -71,7 +71,7 @@ namespace Booking.Models
                     .WithMany(p => p.BookingConfirmations)
                     .HasForeignKey(d => d.ApartmentId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_BookingConfirmation_Appartments");
+                    .HasConstraintName("FK_BookingConfirmation_Apartments");
 
                 entity.HasOne(d => d.Customer)
                     .WithMany(p => p.BookingConfirmations)
