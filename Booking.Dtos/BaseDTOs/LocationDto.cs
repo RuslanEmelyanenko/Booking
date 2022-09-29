@@ -2,6 +2,7 @@
 {
     public class LocationDto
     {
-        public string Pleace { get; set; } = string.Empty;      
+        public int Id { get; set; }
+        public string Pleace { get; set; } = string.Empty;
     }
 }

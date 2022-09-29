@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Booking.Models;
+﻿using Booking.Models;
+using Booking.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Booking.Repository.Implementations
 {
-    public class LocationRepository : BaseRepository<Location>
+    public class LocationRepository : BaseRepository<Location>, ILocationRepository
     {
         private readonly BookingDBContext _dbContext;
 
@@ -22,11 +21,40 @@ namespace Booking.Repository.Implementations
             return location;
         }
 
-        public async Task<IList<Location>> GetAllAsync()
+        public async Task<IReadOnlyCollection<Location>> GetAllAsync()
         {
-            var locations = await _dbContext.Locations.ToListAsync();
+            var locations = await _dbContext.Locations
+                .Include(l => l.District)
+                .ToListAsync();
 
             return locations;
+        }
+
+        public async Task<Location> GetAsync(int id)
+        {
+            var location = await _dbContext.Locations.FirstOrDefaultAsync(l => l.Id == id);
+
+            return location;
+        }
+
+        public async Task Delete(int id)
+        {
+            var location = await _dbContext.Locations.FindAsync(id);
+
+            if(location != null)
+            {
+                _dbContext.Remove(location);
+            }
+        }
+
+        public async Task CompleteAsync()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Location location)
+        {
+            _dbContext.Locations.Update(location);
         }
     }
 }

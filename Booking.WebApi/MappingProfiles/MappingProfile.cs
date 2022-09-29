@@ -22,9 +22,10 @@ namespace Booking.WebApi.MappingProfiles
         {
             CreateMap<Apartment, ApartmentDto>()
                 .ForMember(dest => dest.ApartmentName, opt => opt.MapFrom(src => src.ApartmentName))
-                .ForMember(dest => dest.PhotoAppartment, opt => opt.MapFrom(src => src.PhotoAppartment))
+                .ForMember(dest => dest.PhotoAppartment, opt => opt.MapFrom(src => src.PhotoApartment))
                 .ForMember(dest => dest.Reviews, opt => opt.MapFrom(src => src.Reviews))
-                .ForMember(dest => dest.GPA, opt => opt.MapFrom(src => src.Gpa));
+                .ForMember(dest => dest.GPA, opt => opt.MapFrom(src => src.Gpa))
+                .ReverseMap();
         }
 
         public void AddBookingConfirmationProfileMapping()

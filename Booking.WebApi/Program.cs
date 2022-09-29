@@ -15,7 +15,7 @@ builder.Services.ConfigureDbContext(builder.Configuration);
 
 builder.Services.ConfigureServices();
 
-builder.Services.ConfigureRepositories();
+builder.Services.ConfigureRepositorices();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

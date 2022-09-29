@@ -1,9 +1,8 @@
-﻿using System;
-
-namespace Booking.Dtos.BaseDTOs
+﻿namespace Booking.Dtos.BaseDTOs
 {
     public class BookingConfirmationDto
     {
+        public int Id { get; set; }
         public DateTime BookingDate { get; set; }
         public string ApartmentName { get; set; } = string.Empty;
         public string CustomerName { get; set; } = string.Empty;
